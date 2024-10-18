@@ -16,6 +16,7 @@ timezone: ''
 url: https://blog.maque.cloud/
 #permalink: :year/:month/:day/:title/
 permalink: :year/:abbrlink.html # Generating effect links
+#permalink: :year/:title.html # Generating effect links
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -135,4 +136,15 @@ admin:
   secret: bb
   deployCommand: ./admin_script/hexo-publish.bat
 
-
+asset_img:
+  enable: true
+  # 图片目录，相对于source目录
+  dir: images
+  # 是否压缩图片
+  compress: true
+  # 压缩质量，0-1之间，默认为0.6
+  quality: 0.6
+  # 是否生成缩略图
+  thumbnail: true
+  # 缩略图大小，默认为120x120
+  thumbnail_size: 120x120
