@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.maque.cloud/2024/36907.html</loc>
+    
+    <lastmod>2024-10-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.maque.cloud/2024/d1e02ff4.html</loc>
     
     <lastmod>2024-10-21</lastmod>
@@ -78,6 +87,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://blog.maque.cloud/tags/%E6%9C%BA%E5%9C%BA/</loc>
+    <lastmod>2024-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.maque.cloud/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
+    <lastmod>2024-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -89,6 +112,13 @@
   
   <url>
     <loc>https://blog.maque.cloud/categories/%E5%89%8D%E7%AB%AF/%E6%A1%8C%E9%9D%A2/</loc>
+    <lastmod>2024-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.maque.cloud/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2024-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
