@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.maque.cloud/2024/d1e02ff4.html</loc>
+    
+    <lastmod>2024-10-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.maque.cloud/2024/53428bbb.html</loc>
     
     <lastmod>2024-10-18</lastmod>
@@ -38,24 +47,6 @@
   </url>
   
   <url>
-    <loc>https://blog.maque.cloud/2024/4a17b156.html</loc>
-    
-    <lastmod>2024-10-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.maque.cloud/2024/d1e02ff4.html</loc>
-    
-    <lastmod>2024-10-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.maque.cloud/about/index.html</loc>
     
     <lastmod>2024-10-18</lastmod>
@@ -67,7 +58,7 @@
 
   <url>
     <loc>https://blog.maque.cloud/</loc>
-    <lastmod>2024-10-18</lastmod>
+    <lastmod>2024-10-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,14 +66,14 @@
   
   <url>
     <loc>https://blog.maque.cloud/tags/Electron/</loc>
-    <lastmod>2024-10-18</lastmod>
+    <lastmod>2024-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.maque.cloud/tags/Wails/</loc>
-    <lastmod>2024-10-18</lastmod>
+    <lastmod>2024-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -91,14 +82,14 @@
   
   <url>
     <loc>https://blog.maque.cloud/categories/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2024-10-18</lastmod>
+    <lastmod>2024-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.maque.cloud/categories/%E5%89%8D%E7%AB%AF/%E6%A1%8C%E9%9D%A2/</loc>
-    <lastmod>2024-10-18</lastmod>
+    <lastmod>2024-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
