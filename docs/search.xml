@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>桌面前端技术的造型之-Electron</title>
+    <url>/2024/5ef91600.html</url>
+    <content><![CDATA[<p>Electron</p>
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>Electron</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于桌面前端技术的选型</title>
+    <url>/2024/d1e02ff4.html</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在远古时代，如果开发一个桌面应用，大多数的方式是C++，Java以及他们自带的UI库<br>比如现在大部分的软件也是这样开发的，<br>但随着现在技术越来越统一，要求越来越高。</p>
+<p>技术也趋于Web化。就诞生了将前端技术应用于桌面开发。<br>主要有几个好处<br>1、人员复用<br>原有的Web开发人员，可直接参与到桌面的开发，节省了人力成本<br>2、技术统一<br>同一批人，采用同样的技术，实现Web,桌面一样的效果，<br>同样可以降本增效，还可以实现风格地统一</p>
+<p>得益于MVVM前端技术的出现，<br>对于这样的趋势，现在大部门的前端桌面化主要还是采用Vue或React实现前端的渲染。<br>后端可采用Nodejs,Go,Rust等语言编写。</p>
+<h1 id="现在对比一下目前3个比较流行的开发框架"><a href="#现在对比一下目前3个比较流行的开发框架" class="headerlink" title="现在对比一下目前3个比较流行的开发框架"></a>现在对比一下目前3个比较流行的开发框架</h1><p>1、Nodejs为后端的Electron<br>2、Go为后端的 Wails<br>3、Rust为后端的 Tauri</p>
+<p>先说个人的结论，如果想前端技术一把梭，可以用Electron,采用TypeScript语言即可以写后端，也可以写前端<br>但有个问题，打包出来的包很大，占用内存高。<br>Wails和Tauri基本一样，区别在于后端的语言不同。打包出来的体积小。</p>
+<p>具体的区别看后面的文章</p>
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>Electron</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>桌面前端技术的造型之-Wails</title>
+    <url>/2024/53428bbb.html</url>
+    <content><![CDATA[<h1 id="wails是一个可以让go和web技术编写桌面应用"><a href="#wails是一个可以让go和web技术编写桌面应用" class="headerlink" title="wails是一个可以让go和web技术编写桌面应用"></a>wails是一个可以让go和web技术编写桌面应用</h1><h2 id="安装wails"><a href="#安装wails" class="headerlink" title="安装wails"></a>安装wails</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">go install github.com/wailsapp/wails/v2/cmd/wails@latest</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="检查环境"><a href="#检查环境" class="headerlink" title="检查环境"></a>检查环境</h2><p>wails doctor</p>
+<p><img src="/../images/wails/1.png" alt="1"></p>
+<h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><p>wails init -n AuxiliaryTools -t vue-ts</p>
+<p>拉取go.mod的依赖项<br>go mod tidy</p>
+<p>进入 frontend 前端安装依赖项</p>
+<p>npm install &#x2F;pnpm install</p>
+<p>更新源：pnpm config set registry <a href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a></p>
+<p>pnpm up –latest :强制更新</p>
+<h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><p>wails dev</p>
+<p><img src="/../images/wails/2.png" alt="1"></p>
+]]></content>
+      <categories>
+        <category>前端</category>
+        <category>桌面</category>
+      </categories>
+      <tags>
+        <tag>Wails</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>推荐几个常用的机场</title>
+    <url>/2024/36907.html</url>
+    <content><![CDATA[<h1 id="红杏加速器"><a href="#红杏加速器" class="headerlink" title="红杏加速器"></a>红杏加速器</h1><p><a href="https://hongxingdl.com/web/#/login?code=zXw0XQli">https://hongxingdl.com/web/#/login?code=zXw0XQli</a></p>
+<h1 id="123s-co-点节多，稳定"><a href="#123s-co-点节多，稳定" class="headerlink" title="123s.co 点节多，稳定"></a>123s.co 点节多，稳定</h1><p><a href="https://98a6251b6cd7471da86cca993b6dbe6f.36d.biz/#/register?code=paTa8s9J">https://98a6251b6cd7471da86cca993b6dbe6f.36d.biz/#/register?code=paTa8s9J</a></p>
+<h1 id="云游加速器"><a href="#云游加速器" class="headerlink" title="云游加速器"></a>云游加速器</h1><p><a href="https://a.myshredding.com/#/register?code=byKu5CG6">https://a.myshredding.com/#/register?code=byKu5CG6</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>机场</tag>
+        <tag>科学上网</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>前端图表插件推荐</title>
+    <url>/2024/30094.html</url>
+    <content><![CDATA[<h1 id="EChats"><a href="#EChats" class="headerlink" title="EChats"></a>EChats</h1><p>老牌图表工具了，文档巨多，第一选择</p>
+<p><a href="https://echarts.apache.org/v4/zh/index.html">https://echarts.apache.org/v4/zh/index.html</a></p>
+<h1 id="Vue-Data-Ui"><a href="#Vue-Data-Ui" class="headerlink" title="Vue-Data-Ui"></a>Vue-Data-Ui</h1><p><a href="https://vue-data-ui.graphieros.com/docs">https://vue-data-ui.graphieros.com/docs</a></p>
+<p>都有对应的Vue版本的</p>
+<h1 id="G2"><a href="#G2" class="headerlink" title="G2"></a>G2</h1><p><a href="https://v.antfin.com/zh-cn/g2/3.x/demo/index.html">https://v.antfin.com/zh-cn/g2/3.x/demo/index.html</a></p>
+]]></content>
+      <categories>
+        <category>前端</category>
+        <category>图表</category>
+      </categories>
+      <tags>
+        <tag>图表</tag>
+        <tag>饼图</tag>
+      </tags>
+  </entry>
+</search>
